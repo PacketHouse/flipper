@@ -5,7 +5,7 @@ Converts wireless packet captures (e.g. from Maurauder sniffing) to files that c
 
 ## Getting Started
 ```
-./convert_pcaps.sh [pcap directory (default: ".")] [output directory (default: <current time>/)]
+./convert_pcaps.sh [pcap directory (default: ".")] [output directory (default: /tmp/<current time>)]
 ```
 * If no arguments are passed, the default directory to look for pcaps will be the current directory.
 * If no output directory is specified, the default output directory will be $(date +"%Y%m%d%H%M") (e.g. 202508212200).
