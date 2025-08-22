@@ -1,7 +1,7 @@
 # convert_pcaps.sh
 
 ## Description
-Converts wireless pcap captures (e.g. from Maurauder sniffing) to files that can be used with hashcat.
+Converts wireless packet captures (e.g. from Maurauder sniffing) to files that can be used with hashcat.
 
 ## Getting Started
 ```
